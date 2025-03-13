@@ -8,6 +8,8 @@ tix launch: key(cmd-shift-x)
 tix left: key(cmd-shift-a)
 tix right: key(cmd-shift-s)
 
+tix scroll up: user.smooth_scroll_up()
+tix scroll down: user.smooth_scroll_down()
 tix up: user.mouse_scroll_up_continuous(5)
 tix up <number_small>: user.mouse_scroll_up_continuous(number_small)
 tix down: user.mouse_scroll_down_continuous(5)
